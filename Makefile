@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-c -Wall -Werror -g
+CFLAGS=-c -Wall -g
 LDFLAGS=-lncurses -lcdk
 SOURCES=base64.c crc16.c serio.c main.c joystick.c ui.c
 OBJECTS=$(SOURCES:.c=.o)
