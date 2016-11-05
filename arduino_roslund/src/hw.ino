@@ -2,7 +2,7 @@
 #include "packet.h"
 #include "globals.h"
 #include <Servo.h>
-#include <Sabertooth.h>
+#include "Sabertooth/Sabertooth.h"
 
 Servo fl, fr, rl, rr;
 Sabertooth ST(128);
